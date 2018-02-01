@@ -178,3 +178,9 @@ body {
     height: 150px;
     width: 150px;
 }
+
+@media screen and (max-width:1200px) {
+    #pic {
+        display: none;
+    }
+}

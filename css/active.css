@@ -69,6 +69,7 @@ body {
 .main .text p {
     margin-top: 10px;
     font-size: 13px;
+    text-indent: 2em;
 }
 
 .main .text br {

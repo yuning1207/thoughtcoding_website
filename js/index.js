@@ -77,17 +77,18 @@ function onscroll_a() {
     var top = document.getElementById("top");
 
     window.onscroll = function() {
-        if (document.body.scrollTop >= 30) {
+        if ((document.documentElement.scrollTop >= 30) || (document.body.scrollTop >= 30)) {
             addclass(index_nav, "top_nav_collapse");
         } else {
             removeclass(index_nav, "top_nav_collapse");
         }
-        if (document.body.scrollTop != 0) {
+        if ((document.documentElement.scrollTop != 0) || (document.body.scrollTop != 0)) {
             top.style.display = 'block';
         } else {
             top.style.display = 'none';
         }
     };
+
 }
 addLoadEvent(slide_top);
 addLoadEvent(onscroll_a);

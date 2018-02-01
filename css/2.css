@@ -31,18 +31,6 @@
     width: 250px;
 }
 
-.active_github h4 {
-    margin-left: 60px;
-}
-
-.active_salon h4 {
-    margin-left: 85px;
-}
-
-.active_project h4 {
-    margin-left: 85px;
-}
-
 #active ul {
     margin-left: 0px;
 }
@@ -62,6 +50,7 @@
 
 #active ul li a:hover {
     color: #0066CC;
+    text-decoration: none;
 }
 
 .active_con {
@@ -86,7 +75,8 @@
     width: auto;
     padding-left: 0;
     padding-right: 0;
-    margin-right: 150px;
+    display: inline-block;
+    margin: 0 3%;
 }
 
 .active_img>img {

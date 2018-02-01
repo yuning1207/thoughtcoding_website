@@ -156,6 +156,10 @@ header .navbar-nav>li {
     margin: 3vh auto;
 }
 
+.footer .row>div {
+    padding: 10px 35px;
+}
+
 #qq {
     background: url(../picture/qq.png);
 }
@@ -209,12 +213,6 @@ header .navbar-nav>li {
     header .navbar-default .navbar-nav>li>a {
         margin: 10px 10px;
     }
-    .footer .row #net {
-        margin-left: 30px;
-    }
-    .footer .row .con {
-        margin-left: 30px;
-    }
 }
 
 @media screen and (max-width:991px) {
@@ -241,5 +239,11 @@ header .navbar-nav>li {
     }
     #head {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #head {
+        font-size: 20px;
     }
 }

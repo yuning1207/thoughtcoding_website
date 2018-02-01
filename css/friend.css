@@ -5,7 +5,7 @@ body {
 
 .nav_pic {
     width: 100%;
-    height: auto;
+    height: 330px;
     background-image: url(../img/friend-bg2.jpg);
     /* background-color: black; */
 }
