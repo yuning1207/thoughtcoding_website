@@ -213,7 +213,7 @@ header .navbar-nav>li {
     box-shadow: 1px 1px 8px #888888;
     border-radius: 3px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     margin-top: 15px;
 }
 
@@ -223,7 +223,7 @@ header .navbar-nav>li {
     box-shadow: 1px 1px 8px #888888;
     border-radius: 3px;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 #android {
@@ -232,7 +232,7 @@ header .navbar-nav>li {
     box-shadow: 1px 1px 8px #888888;
     border-radius: 3px;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 #web {
@@ -241,14 +241,14 @@ header .navbar-nav>li {
     box-shadow: 1px 1px 8px #888888;
     border-radius: 3px;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 #嵌入式1,
 #大数据1,
 #android1,
 #web1 {
-    margin: 0px;
+    margin-bottom: 20px;
     height: 96px;
     width: 96px;
 }
@@ -262,7 +262,7 @@ header .navbar-nav>li {
 }
 
 #大数据1 {
-    background-image: url(../picture/index-大数据.png);
+    background-image: url(../picture/index-后台.png);
 }
 
 #android1 {

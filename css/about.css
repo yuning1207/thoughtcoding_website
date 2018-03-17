@@ -37,8 +37,9 @@ body {
     font-weight: 600;
 }
 
-.img {
-    width: auto;
+.img img {
+    height: 150px;
+    width: 200px;
 }
 
 .main {
