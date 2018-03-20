@@ -56,6 +56,10 @@ body {
     background-image: url("../picture/圆圈.png")
 }
 
+.main .text {
+    margin-top: 20px;
+}
+
 .main .text a {
     color: black;
     font-weight: 600;

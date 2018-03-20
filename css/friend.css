@@ -76,6 +76,22 @@ ul.nav-tabs.affix {
     padding-top: 50px;
 }
 
+.pic>div {
+    background-size: 100%;
+}
+
+.info>p {
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+.info>p:nth-last-child(1) {
+    text-indent: 2em;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
 @media screen and (max-width:435px) {
     .container .row .info {
         padding: 20px 0px 20px 10px;
