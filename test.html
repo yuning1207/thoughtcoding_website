@@ -9,7 +9,8 @@
     <meta name="HandheldFriendly" content="true">
     <link href="css/bootstrap.min.css" rel=stylesheet>
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/contact.css" rel="stylesheet">
+    <!-- <link href="css/contact.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/interview-question.css">
 </head>
 
 <body>
@@ -34,47 +35,36 @@
                         <li><a href="project.html">项目</a></li>
                         <li><a href="about.html">关于</a></li>
                         <li><a href="friend.html">校友录</a></li>
-                        <li id="in"><a href="contact.html">加入我们</a></li>
+                        <li><a href="contact.html">加入我们</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="con_head">
-        <p>加入我们</p>
+    <div class="mainbody container" id="mainbody">
+        <div class="row">
 
-    </div>
-    <div class="con_1">
-        <p>小伙伴们可以通过每年4月份左右的纳新宣讲来报名参加，当然如果你错过了纳新时间也可以来我们实验室面试的。 我们不会错过任何一个有能力且热爱技术的同学~学姐学长欢迎你们的到来~点击下方的报名入口进入纳新网站，根据方向选择不同的试题。请务必认真完成并在面试的时候带来~
-        </p>
-        <div style="text-align:center">
-            <a href="../index.html/#/login"><button class="btn btn-info naxin1" type="button">报名入口</button></a>
-            <a href="test.html"><button class="btn btn-info naxin2" type="button">试题下载</button></a>
-        </div>
-    </div>
-    <div id="con1" class="row">
-        <div class="col-xs-12 col-md-6 con-2">
-            <h3 style="padding-bottom:10px;">联系方式</h3>
-            <p><img src="picture/方块.png">&nbsp;&nbsp;&nbsp;&nbsp;地址：陕西省西安市长安区西安邮电大学东区FZ332</p>
-            <p><img src="picture/方块.png">&nbsp;&nbsp;&nbsp;&nbsp;qq群：516023424</p>
-            <p><img src="picture/方块.png">&nbsp;&nbsp;&nbsp;&nbsp;微信公众号：西邮ThoughtCoding实验室</p>
-            <p><img src="picture/方块.png">&nbsp;&nbsp;&nbsp;&nbsp;邮箱：ThoughtCoding@163.com</p>
+            <div class="col-md-4 col-md-offset-4">
+                <form role="form" onsubmit="return false;">
+                    <div class="form-group question">
+                        <h2>基础测试</h2>
+                        <div class="center">
+                            <a href="面试题/2017 年纳新C语言笔试题.pdf" class="download btn btn-info" download>c语言笔试题</a>
+                        </div>
+                    </div>
+                    <div class="form-group question">
+                        <h2>专业技能</h2>
+                        <div class="center">
+                            <a href="面试题/2017 年纳新Java 笔试题.pdf" class="download btn btn-info" download>Java 笔试题</a>
 
-        </div>
-        <div class="col-xs-12 col-md-6">
-            <h3 style="padding-bottom:10px;">问题和建议</h3>
-            <form class="form-inline">
-                <div class="form-group">
-                    <p><input type="text" class="form-control" placeholder="请输姓名" required></p>
-                    <p>
-                        <input type="email" class="form-control" placeholder="请输入邮箱" required></p>
-                    <textarea rows="8" cols="40" placeholder="请输入想对我们说的话" required></textarea>
-                    <p>
-                        <button type="submit" class="btn btn-default">提交</button>
-                    </p>
-                </div>
-            </form>
+                            <a href="面试题/2017年纳新前端笔试题.pdf" class="download btn btn-info" download>前端笔试题</a>
+                            <br><a href="面试题/2017年纳新嵌入式笔试题.pdf" class="download btn btn-info" download>嵌入式笔试题</a>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <!--footer-->

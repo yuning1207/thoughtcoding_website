@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {
+    cursor: pointer;
+}
+
 body {
     font-family: Arial, '微软雅黑';
 }

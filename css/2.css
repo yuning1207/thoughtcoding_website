@@ -4,14 +4,16 @@
     background-color: #0dc5a0;
 }
 
-#active .active_head h2 {
+#active .active_head h1 {
     text-align: center;
-    padding: 80px 0 20px 0;
+    padding: 70px 0 10px 0;
 }
 
 #active .active_head p {
     text-align: center;
     padding-bottom: 50px;
+    line-height: 30px;
+    word-spacing: 1px;
 }
 
 #active .row {
@@ -21,8 +23,8 @@
 
 #active h4 {
     font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .active_github,

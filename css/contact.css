@@ -25,6 +25,14 @@ body {
     position: relative;
 }
 
+.con_1 a {
+    color: white;
+}
+
+.con_1 a:hover {
+    text-decoration: none;
+}
+
 .con_1 p {
     margin: 20px 15%;
     text-indent: 2em;
