@@ -2,16 +2,14 @@ function addLoadEvent(func) {
     var oldonload = window.onload;
     if (typeof window.onload != 'function') {
         window.onload = func;
-        var load = document.getElementById("load");
-        load.style.visibility = "hidden";
     } else {
         window.onload = function() {
             oldonload();
             func();
-            var load = document.getElementById("load");
-            load.style.visibility = "hidden";
         }
     }
+    var load = document.getElementById('load');
+    load.style.visibility = 'hidden';
 }
 
 function addclass(element, value) {

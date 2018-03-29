@@ -377,7 +377,7 @@ header .navbar-nav>li {
 }
 
 #contact .row {
-    margin: 20vh 20vh 10vh 16vh;
+    margin: 80px 80px 30px 80px;
 }
 
 #contact .row h2 {
@@ -387,30 +387,31 @@ header .navbar-nav>li {
 }
 
 .form-inline {
-    margin: 3vh 0 0 0;
+    margin: 3% 0 0 0;
 }
 
 #contact .row h3 {
     color: #0dc5a0;
     font-weight: 400;
-    padding: 1vh 0 1vh 0;
+    padding: 1% 0 1% 0;
 }
 
 #contact .row p {
-    font: 2.3vh/5vh "微软雅黑";
+    font: 15px "微软雅黑";
     border-bottom: 1px dashed black;
-    margin: 2vh 0;
+    margin: 2% 0;
+    line-height: 30px;
 }
 
 #contact .row textarea {
     display: block;
     border-radius: 5px;
-    margin: 2vh 0;
+    margin: 2% 0;
 }
 
 #contact .row input {
     border-radius: 2px;
-    margin: 2vh 9vh 2vh 0;
+    margin: 2% 9% 2% 0;
 }
 
 #contact #target a {
@@ -418,8 +419,8 @@ header .navbar-nav>li {
     text-decoration: none;
     display: block;
     float: left;
-    height: 5vh;
-    width: 30vh;
+    height: 5%;
+    width: 30%;
 }
 
 #contact #target a:hover {
@@ -430,7 +431,7 @@ header .navbar-nav>li {
 #contact img {
     float: right;
     position: absolute;
-    top: -1vh;
+    top: -1%;
 }
 
 #contact .contact_qa {
@@ -438,11 +439,11 @@ header .navbar-nav>li {
 }
 
 #爱心 {
-    right: 3vh;
+    right: 3%;
 }
 
 .footer {
-    padding: 3vh 0vh;
+    padding: 1% 0;
     width: 100%;
     background-color: #323436;
     color: #B0B0B0;
@@ -459,7 +460,7 @@ header .navbar-nav>li {
 
 .footer .footer_last {
     text-align: center;
-    margin: 3vh auto;
+    margin: 2% auto;
 }
 
 .footer .row>div {
@@ -495,7 +496,7 @@ header .navbar-nav>li {
 
 #net ul {
     list-style-type: none;
-    margin-top: 2vh;
+    margin-top: 2%;
 }
 
 #net {
@@ -503,7 +504,7 @@ header .navbar-nav>li {
 }
 
 #net li {
-    margin: 0 1vh;
+    margin: 0 1%;
     display: inline-block;
     height: 24px;
     width: 24px;
